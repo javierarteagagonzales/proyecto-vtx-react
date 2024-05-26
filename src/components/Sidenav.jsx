@@ -29,6 +29,10 @@ import GradingIcon from '@mui/icons-material/Grading';
 import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
 import HomeIcon from '@mui/icons-material/Home';
 
+
+
+
+
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -104,6 +108,10 @@ export default function Sidenav() {
   const open = useAppStore((state) => state.dopen);
 
 
+
+
+
+
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -157,8 +165,14 @@ export default function Sidenav() {
                  <InventoryIcon /> 
                 </ListItemIcon>
                 <ListItemText primary="Almacén Central" sx={{ opacity: open ? 1 : 0 }} />
+              
               </ListItemButton>
             </ListItem>
+
+          
+
+
+
             <ListItem disablePadding sx={{ display: 'block' }} onClick={()=>{navigate("/area2")}}>
               <ListItemButton
                 sx={{
