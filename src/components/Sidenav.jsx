@@ -20,6 +20,14 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 //import MailIcon from '@mui/icons-material/Mail';
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../appStore';
+import InventoryIcon from '@mui/icons-material/Inventory';
+import ContentCutIcon from '@mui/icons-material/ContentCut';
+import CheckroomIcon from '@mui/icons-material/Checkroom';
+import DirectionsTransitIcon from '@mui/icons-material/DirectionsTransit';
+import EngineeringIcon from '@mui/icons-material/Engineering';
+import GradingIcon from '@mui/icons-material/Grading';
+import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
+import HomeIcon from '@mui/icons-material/Home';
 
 const drawerWidth = 240;
 
@@ -126,7 +134,7 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                 <InboxIcon /> 
+                 <HomeIcon /> 
                 </ListItemIcon>
                 <ListItemText primary="Home" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
@@ -146,7 +154,7 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                 <InboxIcon /> 
+                 <InventoryIcon /> 
                 </ListItemIcon>
                 <ListItemText primary="Almacén Central" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
@@ -166,7 +174,7 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                 <InboxIcon /> 
+                 <ContentCutIcon/> 
                 </ListItemIcon>
                 <ListItemText primary="Corte" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
@@ -186,7 +194,7 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                 <InboxIcon /> 
+                 <CheckroomIcon/> 
                 </ListItemIcon>
                 <ListItemText primary="Confección" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
@@ -206,7 +214,7 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                 <InboxIcon /> 
+                 <DirectionsTransitIcon /> 
                 </ListItemIcon>
                 <ListItemText primary="Almacén de tránsito" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
@@ -226,8 +234,8 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                 <InboxIcon /> 
-                </ListItemIcon>
+                 <EngineeringIcon  /> 
+                </ListItemIcon >
                 <ListItemText primary="Acabados" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
             </ListItem>
@@ -246,7 +254,7 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                 <InboxIcon /> 
+                 <GradingIcon /> 
                 </ListItemIcon>
                 <ListItemText primary="Inspección de Calidad" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
@@ -266,7 +274,7 @@ export default function Sidenav() {
                     justifyContent: 'center',
                   }}
                 >
-                 <InboxIcon /> 
+                 <DeveloperBoardIcon /> 
                 </ListItemIcon>
                 <ListItemText primary="PCP" sx={{ opacity: open ? 1 : 0 }} />
               </ListItemButton>
