@@ -97,10 +97,10 @@ export default function Sidenav() {
       icon: <InventoryIcon />,
       path: '/area1',
       subItems: [
-        { text: 'Resumen', path: '/area1/sub1' },
-        { text: 'Solicitud', path: '/area1/sub2' },
-        { text: 'Estado', path: '/area1/sub2' },
-        { text: 'Estado inventario', path: '/area1/sub2' },
+        { text: 'Resumen', path: '/almacencentral/resumen' },
+        { text: 'Solicitud', path: '/almacencentral/solicitud' },
+        { text: 'Estado', path: '/almacencentral/estado' },
+        { text: 'Estado inventario', path: '/almacencentral/estado-inv' },
       ]
     },
     {
@@ -108,8 +108,8 @@ export default function Sidenav() {
       icon: <ContentCutIcon />,
       path: '/area2',
       subItems: [
-        { text: 'Detalles de lote', path: '/area2/sub1' },
-        { text: 'Órdenes de trabajo', path: '/area2/sub2' },
+        { text: 'Detalles de lote', path: '/corte/detalle' },
+        { text: 'Órdenes de trabajo', path: '/corte/orden' },
       ]
     },
     {
@@ -117,9 +117,9 @@ export default function Sidenav() {
       icon: <CheckroomIcon />,
       path: '/area3',
       subItems: [
-        { text: 'Orden de trabajo', path: '/area2/sub1' },
-        { text: 'Plan de confección', path: '/area2/sub2' },
-        { text: 'Guía de confección', path: '/area2/sub2' },
+        { text: 'Orden de trabajo', path: '/confeccion/orden' },
+        { text: 'Plan de confección', path: '/confeccion/plan' },
+        { text: 'Guía de confección', path: '/confeccion/guia' },
       ]
     },
     {
@@ -127,9 +127,9 @@ export default function Sidenav() {
       icon: <DirectionsTransitIcon />,
       path: '/area4',
       subItems: [
-        { text: '1', path: '/area2/sub1' },
-        { text: '2', path: '/area2/sub2' },
-        { text: '3', path: '/area2/sub2' },
+        { text: '1', path: '/transito/1' },
+        { text: '2', path: '/transito/2' },
+        { text: '3', path: '/transito/3' },
       ]
     },
     {
@@ -137,8 +137,8 @@ export default function Sidenav() {
       icon: <EngineeringIcon />,
       path: '/acabados',
       subItems: [
-        { text: 'Lotes', path: '/area2/sub1' },
-        { text: 'Acabados', path: '/area2/sub2' },
+        { text: 'Lotes', path: '/acabados/lotes' },
+        { text: 'Acabados', path: '/acabados/acabados' },
       ]
     },
     {
@@ -146,9 +146,9 @@ export default function Sidenav() {
       icon: <GradingIcon />,
       path: '/area6',
       subItems: [
-        { text: 'Tipo 1', path: '/area2/sub1' },
-        { text: 'Tipo 2', path: '/area2/sub2' },
-        { text: 'Tipo 3', path: '/area2/sub2' },
+        { text: 'Tipo 1', path: '/calidad/tipo-1' },
+        { text: 'Tipo 2', path: '/calidad/tipo-2' },
+        { text: 'Tipo 3', path: '/calidad/tipo-3' },
       ]
     },
     {
@@ -156,9 +156,9 @@ export default function Sidenav() {
       icon: <DeveloperBoardIcon />,
       path: '/area7',
       subItems: [
-        { text: 'Programar producción', path: '/area2/sub1' },
-        { text: 'Controlar producción', path: '/area2/sub2' },
-        { text: 'Estado de proveedores', path: '/area2/sub2' },
+        { text: 'Programar producción', path: '/pcp/programar' },
+        { text: 'Controlar producción', path: '/pcp/controlar' },
+        { text: 'Estado de proveedores', path: '/pcp/estado' },
       ]
     },
   ];
