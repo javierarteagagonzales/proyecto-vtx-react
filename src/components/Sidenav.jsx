@@ -27,7 +27,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../appStore';
 import MenuItem from './MenuItem';
 
-const drawerWidth = 240;
+const drawerWidth = 300;
 
 const openedMixin = (theme) => ({
   width: drawerWidth,

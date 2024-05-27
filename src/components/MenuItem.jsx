@@ -53,9 +53,9 @@ export default function MenuItem({ item, navigate, open }) {
               <ListItem key={subIndex} disablePadding sx={{ pl: 4 }}>
                 <ListItemButton
                   sx={{
-                    minHeight: 32,
+                    maxHeight: 32,
                     justifyContent: open ? 'initial' : 'center',
-                    px: 2.5,
+                    px: 4,
                     fontSize: '10px',
                     color: '#555555',
                   }}
